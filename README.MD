@@ -1,7 +1,7 @@
 ## How to install require packages?
 
 1. Go to your terminal
-2. `git clone https://github/caxtry/whoknows`
+2. `git clone https://github.com/caxtry/whoknows/tree/main2`
 3. Use `cd whoknows`
 4. After that type `npm i -g pnpm`
 5. then `pnpm install --frozen-loclfile`

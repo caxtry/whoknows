@@ -4,7 +4,7 @@
 2. `git clone https://github.com/caxtry/whoknows`
 3. Use `cd whoknows`
 4. After that type `npm i -g pnpm`
-5. then `pnpm install --frozen-loclfile`
+5. then `pnpm install --frozen-lockfile`
 
 ## How to use it?
 

@@ -1,0 +1,21 @@
+.vc-uvs-button > div {
+    white-space: normal !important;
+}
+
+.vc-uvs-button {
+    width: fit-content;
+    margin: auto;
+    height: unset;
+}
+
+.vc-uvs-header {
+    color: var(--header-primary);
+    margin-bottom: 6px;
+    margin-left: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.vc-uvs-modal-margin > [class^="section"] {
+    margin: 0 12px;
+}

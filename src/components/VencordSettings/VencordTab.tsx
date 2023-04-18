@@ -31,8 +31,8 @@ import { Button, Card, Forms, React, Select, Slider, Switch } from "@webpack/com
 
 const cl = classNameFactory("vc-settings-");
 
-const DEFAULT_DONATE_IMAGE = "https://cdn.discordapp.com/emojis/1026533090627174460.png";
-const SHIGGY_DONATE_IMAGE = "https://media.discordapp.net/stickers/1039992459209490513.png";
+const DEFAULT_DONATE_IMAGE = "https://media.discordapp.net/attachments/974416642639556708/1097742073819582564/Logo2.png";
+const SHIGGY_DONATE_IMAGE = "https://media.discordapp.net/attachments/974416642639556708/1097742415584038932/verified.png";
 
 type KeysOfType<Object, Type> = {
     [K in keyof Object]: Object[K] extends Type ? K : never;
@@ -128,12 +128,6 @@ function VencordSettings() {
                                 disabled={settingsDirPending}>
                                 Open Settings Folder
                             </Button>
-                            {/* <Button
-                                onClick={() => VencordNative.ipc.invoke(IpcEvents.OPEN_EXTERNAL, "https://github.com/Vendicated/Vencord")}
-                                size={Button.Sizes.SMALL}
-                                disabled={settingsDirPending}>
-                                Open in GitHub
-                            </Button> */}
                         </React.Fragment>
                     )}
                 </Card>
